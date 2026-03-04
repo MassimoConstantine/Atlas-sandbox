@@ -1,0 +1,7 @@
+{"timestamp": "2025-03-10T12:00:00", "event_type": "task_started", "task_id": "edge-001", "description": "Normal event for baseline"}
+{"timestamp": "2025-03-10T12:00:00", "event_type": "task_started", "task_id": "edge-002", "description": "Same date and type as first"}
+{"timestamp": "2025-03-10T12:00:00", "event_type": "task_completed", "task_id": "edge-003", "description": "Same date, different type"}
+{"timestamp": "2025-03-11T09:00:00", "event_type": "task_started", "task_id": "edge-001", "description": "Unicode test: café résumé naïve 日本語 中文 🚀"}
+{"timestamp": "2025-03-12T15:30:00", "event_type": "Task_Started", "task_id": "edge-004", "description": "Case variant — note capital T and S"}
+{"timestamp": "2025-03-13T08:00:00", "event_type": "review_requested", "task_id": "edge-005", "description": "Event with extra fields", "extra_field": "should be ignored", "priority": 99}
+{"timestamp": "2025-03-14T18:00:00", "event_type": "task_completed", "task_id": "edge-001", "description": "Final event for edge-001"}
