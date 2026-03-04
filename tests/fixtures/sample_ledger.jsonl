@@ -1,0 +1,9 @@
+{"timestamp": "2025-01-15T10:00:00", "event_type": "task_started", "task_id": "task-001", "description": "Started ledger CLI task"}
+{"timestamp": "2025-01-15T11:30:00", "event_type": "test_passed", "task_id": "task-001", "description": "All unit tests passed"}
+{"timestamp": "2025-01-16T09:00:00", "event_type": "task_started", "task_id": "task-002", "description": "Started schema validator task"}
+{"timestamp": "2025-01-16T14:00:00", "event_type": "review_requested", "task_id": "task-002", "description": "Code review requested"}
+{"timestamp": "2025-01-17T08:00:00", "event_type": "task_completed", "task_id": "task-001", "description": "Ledger CLI task completed"}
+{"timestamp": "2025-01-17T16:00:00", "event_type": "test_passed", "task_id": "task-002", "description": "Schema validator tests passed"}
+{"timestamp": "2025-01-18T10:00:00", "event_type": "task_completed", "task_id": "task-002", "description": "Schema validator completed"}
+this is not valid json
+{"timestamp": "2025-01-19T12:00:00", "event_type": "task_started", "task_id": "task-003", "description": "Started doc generator task"}
