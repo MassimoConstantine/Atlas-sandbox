@@ -1,0 +1,10 @@
+{
+    "schema_type": "BuildPlan",
+    "steps": ["Create models", "Create CLI", "Write tests"],
+    "files_to_create": ["src/ledger_cli.py"],
+    "files_to_modify": [],
+    "files_not_to_touch": ["CLAUDE.md"],
+    "test_strategy": "Unit tests for all acceptance criteria",
+    "dependencies": ["src/schemas.py must exist first"],
+    "stop_conditions": ["If Pydantic import fails"]
+}

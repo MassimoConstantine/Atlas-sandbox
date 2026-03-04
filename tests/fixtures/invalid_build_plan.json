@@ -1,0 +1,5 @@
+{
+    "schema_type": "BuildPlan",
+    "steps": "not a list",
+    "files_to_create": 42
+}

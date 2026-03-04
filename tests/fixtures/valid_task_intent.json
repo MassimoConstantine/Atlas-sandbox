@@ -1,0 +1,10 @@
+{
+    "schema_type": "TaskIntent",
+    "task_id": "sandbox-run-01",
+    "intent_type": "feature build",
+    "scope": ["src/ledger_cli.py", "src/ledger_reader.py"],
+    "constraints": ["DO NOT modify CLAUDE.md"],
+    "acceptance_criteria": ["CLI callable via python -m src.ledger_cli"],
+    "estimated_effort": "2-3 hours",
+    "confidence": 5
+}
